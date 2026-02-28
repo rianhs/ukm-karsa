@@ -4,7 +4,7 @@ title: "Nalar Karsa"
 ---
 
 <h2 style="color: var(--gold); font-family: 'Playfair Display', serif;">Nalar Karsa</h2>
-<p>Kupasan Data (Kuda): Ulasan artikel ilmiah, bedah data, dan analisis ilmu veteriner.</p>
+<p>Kuda (Kupasan Data): Ulasan artikel ilmiah, bedah data, dan analisis ilmu veteriner.</p>
 
 <hr style="margin: 30px 0; border: 0; border-top: 1px solid #ddd;">
 
