@@ -136,7 +136,7 @@ footer {
 
 /* Pengaturan Logo */
 .main-logo {
-    height: 60px; /* Anda bisa menyesuaikan tinggi logo di sini */
+    height: 55px; /* Anda bisa menyesuaikan tinggi logo di sini */
     width: auto;
     transition: transform 0.3s;
 }
@@ -152,7 +152,7 @@ footer {
 /* Responsif untuk HP */
 @media (max-width: 600px) {
     .main-logo {
-        height: 45px;
+        height: 40px;
     }
     header h1 {
         font-size: 1.2rem;
