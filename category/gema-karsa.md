@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Arsip MURAI"
+title: "Gema Karsa"
 ---
 
 <h2 style="color: var(--gold); font-family: 'Playfair Display', serif;">Rubrik MURAI (Muara Ragam Inspirasi)</h2>
