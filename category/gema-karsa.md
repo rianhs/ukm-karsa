@@ -3,8 +3,8 @@ layout: default
 title: "Gema Karsa"
 ---
 
-<h2 style="color: var(--gold); font-family: 'Playfair Display', serif;">Rubrik MURAI (Muara Ragam Inspirasi)</h2>
-<p>Siniar (Podcast) Karsa: Mendengarkan obrolan inspiratif seputar dunia kedokteran hewan.</p>
+<h2 style="color: var(--gold); font-family: 'Playfair Display', serif;">Gema Karsa</h2>
+<p>Murai (Muara Ragam Inspirasi): Obrolan inspiratif seputar dunia kedokteran hewan.</p>
 
 <hr style="margin: 30px 0; border: 0; border-top: 1px solid #ddd;">
 
