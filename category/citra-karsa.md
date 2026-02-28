@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Arsip KUCING"
+title: "Citra Karsa"
 ---
 
 <h2 style="color: var(--gold); font-family: 'Playfair Display', serif;">Rubrik KUCING (Kumpulan Citra & Infografis)</h2>
