@@ -12,33 +12,46 @@ title: Beranda
 
 <section class="zoo-nav">
     <div class="grid">
-        <a href="/category/macan" class="card card-macan">
+        <a href="{{ '/category/macan' | relative_url }}" class="card card-macan">
             <i class="fas fa-cat"></i>
             <h3>MACAN</h3>
             <p>Majalah dan Catatan</p>
         </a>
-
-        <a href="/category/kuda" class="card card-kuda">
+        <a href="{{ '/category/kuda' | relative_url }}" class="card card-kuda">
             <i class="fas fa-horse"></i>
             <h3>KUDA</h3>
             <p>Kupasan Data</p>
         </a>
-
-        <a href="/category/kucing" class="card card-kucing">
+        <a href="{{ '/category/kucing' | relative_url }}" class="card card-kucing">
             <i class="fas fa-paw"></i>
             <h3>KUCING</h3>
             <p>Kumpulan Citra & Infografis</p>
         </a>
-
-        <a href="/category/rusa" class="card card-rusa">
-            <i class="fas fa-hippo"></i> <h3>RUSA</h3>
+        <a href="{{ '/category/rusa' | relative_url }}" class="card card-rusa">
+            <i class="fas fa-hippo"></i>
+            <h3>RUSA</h3>
             <p>Ruang Sayembara</p>
         </a>
-
-        <a href="/category/murai" class="card card-murai">
+        <a href="{{ '/category/murai' | relative_url }}" class="card card-murai">
             <i class="fas fa-dove"></i>
             <h3>MURAI</h3>
             <p>Muara Ragam Inspirasi</p>
         </a>
+    </div>
+</section>
+
+<hr style="margin: 50px 0; border: 0; border-top: 1px solid #ddd;">
+
+<section class="latest-news">
+    <h2 style="text-align: center; color: var(--gold); margin-bottom: 30px; font-family: 'Playfair Display', serif;">Warta Terkini</h2>
+    <div class="news-list">
+        {% for post in site.posts limit: 5 %}
+        <article style="background: white; padding: 25px; border-radius: 12px; margin-bottom: 20px; border-left: 6px solid var(--gold); box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+            <span style="font-size: 0.75rem; font-weight: bold; color: var(--gold); text-transform: uppercase;">{{ post.category }}</span>
+            <h3 style="margin: 10px 0;"><a href="{{ post.url | relative_url }}" style="text-decoration: none; color: var(--dark);">{{ post.title }}</a></h3>
+            <p style="font-size: 0.95rem; color: #555;">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+            <small style="color: #888;">{{ post.date | date: "%d %B %Y" }} • Oleh {{ post.author }}</small>
+        </article>
+        {% endfor %}
     </div>
 </section>
