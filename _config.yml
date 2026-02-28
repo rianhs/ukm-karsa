@@ -1,0 +1,21 @@
+# Informasi Organisasi
+title: UKM Karsa Prodi Kedokteran Hewan FK Unhas
+email: karsafkhunhas@gmail.com
+description: >-
+  Karya dan Ekspresi Mahasiswa (Karsa) - Wadah Penalaran dan Pers 
+  Mahasiswa Kedokteran Hewan Universitas Hasanuddin.
+
+# Pengaturan Warna (Akan dipanggil di CSS)
+colors:
+  primary: "#C5A059"  # Gold Logo
+  secondary: "#FDFBD4" # Cream Feed
+  accent: "#1A3A5F"    # Deep Blue
+
+# Definisi Rubrik "Kebun Binatang"
+categories: [MACAN, KUDA, KUCING, RUSA, MURAI]
+
+# Pengaturan Teknis
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
