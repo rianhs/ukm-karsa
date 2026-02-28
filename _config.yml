@@ -19,3 +19,6 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+
+baseurl: "/ukm-karsa"
+url: "https://rianhs.github.io"
