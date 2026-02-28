@@ -3,8 +3,8 @@ layout: default
 title: "Ajang Karsa"
 ---
 
-<h2 style="color: var(--gold); font-family: 'Playfair Display', serif;">Rubrik RUSA (Ruang Sayembara)</h2>
-<p>Informasi kompetisi ilmiah, hibah penelitian, dan ajang prestasi mahasiswa veteriner.</p>
+<h2 style="color: var(--gold); font-family: 'Playfair Display', serif;">Ajang Karsa</h2>
+<p>Ruang Sayembara (Rusa): Informasi kompetisi ilmiah dan informasi prestasi mahasiswa kedokteran hewan.</p>
 
 <hr style="margin: 30px 0; border: 0; border-top: 1px solid #ddd;">
 
