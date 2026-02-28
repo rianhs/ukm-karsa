@@ -133,3 +133,28 @@ footer {
     font-size: 0.85rem;
     opacity: 0.8;
 }
+
+/* Pengaturan Logo */
+.main-logo {
+    height: 60px; /* Anda bisa menyesuaikan tinggi logo di sini */
+    width: auto;
+    transition: transform 0.3s;
+}
+
+.main-logo:hover {
+    transform: scale(1.05);
+}
+
+.logo-area {
+    margin-bottom: 20px;
+}
+
+/* Responsif untuk HP */
+@media (max-width: 600px) {
+    .main-logo {
+        height: 45px;
+    }
+    header h1 {
+        font-size: 1.2rem;
+    }
+}
