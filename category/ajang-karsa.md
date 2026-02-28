@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Arsip RUSA"
+title: "Ajang Karsa"
 ---
 
 <h2 style="color: var(--gold); font-family: 'Playfair Display', serif;">Rubrik RUSA (Ruang Sayembara)</h2>
