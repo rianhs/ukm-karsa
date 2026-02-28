@@ -4,7 +4,7 @@ title: "Ajang Karsa"
 ---
 
 <h2 style="color: var(--gold); font-family: 'Playfair Display', serif;">Ajang Karsa</h2>
-<p>Ruang Sayembara (Rusa): Informasi kompetisi ilmiah dan informasi prestasi mahasiswa kedokteran hewan.</p>
+<p>Rusa (Ruang Sayembara): Informasi kompetisi ilmiah dan informasi prestasi mahasiswa kedokteran hewan.</p>
 
 <hr style="margin: 30px 0; border: 0; border-top: 1px solid #ddd;">
 
