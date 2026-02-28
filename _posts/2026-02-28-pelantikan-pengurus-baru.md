@@ -12,7 +12,19 @@ Sebagai wadah **Karya dan Ekspresi Mahasiswa**, Karsa berkomitmen untuk terus me
 ### Fokus Utama Kepengurusan Tahun Ini:
 1. **Digitalisasi Literasi:** Memaksimalkan website sebagai pusat informasi veteriner.
 2. **Kolaborasi Lintas Organisasi:** Menjalin sinergi dengan enam organisasi mahasiswa di prodi.
-3. **Peningkatan Prestasi:** Menargetkan lebih banyak partisipasi dalam ajang kompetisi ilmiah (RUSA).
+3. **Peningkatan Prestasi:** Menargetkan lebih banyak partisipasi dalam ajang kompetisi ilmiah.
+
+### Struktur Pengurus UKM Karsa Periode 2026
+
+Berikut adalah susunan inti kepengurusan yang akan mengawal jalannya organisasi selama satu tahun ke depan:
+
+| Jabatan | Nama Pengurus |
+| :--- | :--- |
+| **Ketua Umum** | [Isi Nama Ketua] |
+| **Sekretaris** | [Isi Nama Sekretaris] |
+| **Bendahara** | [Isi Nama Bendahara] |
+
+---
 
 ---
 *Laporan oleh: Divisi Pers Karsa*
