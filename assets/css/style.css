@@ -146,6 +146,15 @@ footer {
     margin-top: 50px;
 }
 
+/* Pengaturan Default Kotak Putih (Desktop) */
+.post-content {
+    background: var(--white);
+    padding: 40px;
+    border-radius: 15px;
+    line-height: 1.8;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
 /* --- 8. PERBAIKAN MOBILE (Media Query) --- */
 @media (max-width: 600px) {
     .logo-link {
@@ -167,5 +176,17 @@ footer {
 
     nav li {
         margin: 5px 8px;
+    }
+
+    .container {
+        width: 94%; /* Memperlebar area utama agar lebih dekat ke pinggir layar */
+    }
+
+    .post-content {
+        padding: 20px; /* Mengurangi padding dari 40px menjadi 20px agar teks lebih lebar */
+    }
+
+    .single-post h1 {
+        font-size: 1.8rem; /* Mengecilkan judul agar tidak terlalu memenuhi layar */
     }
 }
