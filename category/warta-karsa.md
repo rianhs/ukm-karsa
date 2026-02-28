@@ -8,7 +8,7 @@ title: "Warta Karsa"
 
 <hr>
 
-{% for post in site.categories.MACAN %}
+{% for post in site.categories["Warta Karsa"] %}
   <article style="margin-bottom: 30px;">
     <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
     <small>{{ post.date | date: "%d %B %Y" }}</small>
