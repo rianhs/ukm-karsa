@@ -8,7 +8,7 @@ title: "Nalar Karsa"
 
 <hr style="margin: 30px 0; border: 0; border-top: 1px solid #ddd;">
 
-{% for post in site.categories.KUDA %}
+{% for post in site.categories["Nalar Karsa"] %}
   <article style="margin-bottom: 30px;">
     <h3 style="margin-bottom: 5px;"><a href="{{ post.url | relative_url }}" style="text-decoration: none; color: var(--dark);">{{ post.title }}</a></h3>
     <small style="color: #888;">{{ post.date | date: "%d %B %Y" }} • Oleh {{ post.author }}</small>
