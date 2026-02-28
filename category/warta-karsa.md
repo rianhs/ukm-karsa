@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Arsip MACAN"
+title: "Warta Karsa"
 ---
 
 <h2 style="color: var(--gold); font-family: 'Playfair Display', serif;">Rubrik MACAN (Majalah dan Catatan)</h2>
