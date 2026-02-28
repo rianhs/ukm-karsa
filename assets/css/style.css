@@ -8,7 +8,8 @@
 
 /* 2. Dasar Halaman */
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     background-color: var(--cream);
     color: var(--dark);
     margin: 0;
