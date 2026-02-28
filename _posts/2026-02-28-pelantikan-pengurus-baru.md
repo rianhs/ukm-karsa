@@ -20,11 +20,10 @@ Berikut adalah susunan inti kepengurusan yang akan mengawal jalannya organisasi 
 
 | Jabatan | Nama Pengurus |
 | :--- | :--- |
-| **Ketua Umum** | [Isi Nama Ketua] |
-| **Sekretaris** | [Isi Nama Sekretaris] |
-| **Bendahara** | [Isi Nama Bendahara] |
+| Ketua | Clarissa Eka Citra |
+| Sekretaris | Ridha Dwi Wahyuni |
+| Bendahara | M. Yusuf Brilian Pata |
 
----
 
 ---
 *Laporan oleh: Divisi Pers Karsa*
