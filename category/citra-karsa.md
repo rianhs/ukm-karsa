@@ -3,8 +3,8 @@ layout: default
 title: "Citra Karsa"
 ---
 
-<h2 style="color: var(--gold); font-family: 'Playfair Display', serif;">Rubrik KUCING (Kumpulan Citra & Infografis)</h2>
-<p>Galeri karya visual, poster edukasi, dan infografis kesehatan hewan karya mahasiswa.</p>
+<h2 style="color: var(--gold); font-family: 'Playfair Display', serif;">Citra Karsa</h2>
+<p>Kucing (Kumpulan Citra dan Infografis): Galeri karya visual, poster edukasi, dan infografis karya mahasiswa.</p>
 
 <hr style="margin: 30px 0; border: 0; border-top: 1px solid #ddd;">
 
