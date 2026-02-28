@@ -8,7 +8,7 @@ title: "Gema Karsa"
 
 <hr style="margin: 30px 0; border: 0; border-top: 1px solid #ddd;">
 
-{% for post in site.categories.MURAI %}
+{% for post in site.categories["Gema Karsa"] %}
   <article style="margin-bottom: 30px; display: flex; align-items: center;">
     <div style="font-size: 2rem; margin-right: 20px; color: var(--gold);"><i class="fas fa-play-circle"></i></div>
     <div>
