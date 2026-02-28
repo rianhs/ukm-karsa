@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<article class="single-post">
+    <header style="text-align: center; margin-bottom: 40px;">
+        <span style="color: var(--gold); font-weight: bold;">{{ page.category }}</span>
+        <h1 style="font-family: 'Playfair Display', serif; font-size: 2.5rem; margin-top: 10px;">{{ page.title }}</h1>
+        <p style="color: #888;">Dipublikasikan pada {{ page.date | date: "%d %B %Y" }} oleh {{ page.author }}</p>
+    </header>
+
+    <div class="post-content" style="background: white; padding: 40px; border-radius: 15px; line-height: 1.8;">
+        {{ content }}
+    </div>
+</article>
