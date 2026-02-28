@@ -15,8 +15,13 @@
     <header>
         <div class="container">
             <div class="logo-area">
-                <h1>{{ site.title }}</h1>
-                <p>Karya dan Ekspresi Mahasiswa</p>
+                <a href="{{ '/' | relative_url }}" style="text-decoration: none; display: flex; align-items: center; justify-content: center; gap: 15px;">
+                    <img src="{{ '/assets/images/logo-karsa.png' | relative_url }}" alt="Logo Karsa" class="main-logo">
+                    <div style="text-align: left;">
+                        <h1 style="margin: 0; line-height: 1;">{{ site.title }}</h1>
+                        <p style="margin: 5px 0 0 0; font-size: 0.9rem; color: #666;">Karya dan Ekspresi Mahasiswa</p>
+                    </div>
+                </a>
             </div>
             <nav>
                 <ul>
