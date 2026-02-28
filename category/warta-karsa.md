@@ -3,8 +3,8 @@ layout: default
 title: "Warta Karsa"
 ---
 
-<h2 style="color: var(--gold); font-family: 'Playfair Display', serif;">Rubrik MACAN (Majalah dan Catatan)</h2>
-<p>Kumpulan berita organisasi dan catatan aktual seputar kampus.</p>
+<h2 style="color: var(--gold); font-family: 'Playfair Display', serif;">Warta Karsa</h2>
+<p>Macan (Majalah dan Catatan): Kumpulan berita seputar kampus dan seputar isu kedokteran hewan.</p>
 
 <hr>
 
