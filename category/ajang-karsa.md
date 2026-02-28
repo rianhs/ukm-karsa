@@ -8,7 +8,7 @@ title: "Ajang Karsa"
 
 <hr style="margin: 30px 0; border: 0; border-top: 1px solid #ddd;">
 
-{% for post in site.categories.RUSA %}
+{% for post in site.categories["Ajang Karsa"] %}
   <article style="margin-bottom: 30px; border-left: 4px solid #e74c3c; padding-left: 20px;">
     <h3 style="margin-bottom: 5px;"><a href="{{ post.url | relative_url }}" style="text-decoration: none; color: var(--dark);">{{ post.title }}</a></h3>
     <small style="color: #888;">Update: {{ post.date | date: "%d %B %Y" }}</small>
