@@ -149,12 +149,47 @@ footer {
     margin-bottom: 20px;
 }
 
-/* Responsif untuk HP */
+/* Layout Logo Default (Desktop) */
+.logo-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.site-info {
+    text-align: left; /* Rata kiri saat di samping logo (desktop) */
+}
+
+.site-info h1 {
+    margin: 0;
+    line-height: 1.1;
+    font-size: 1.5rem; /* Sesuaikan ukuran jika terlalu besar */
+}
+
+.site-info p {
+    margin: 5px 0 0 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* --- PERBAIKAN UNTUK MOBILE --- */
 @media (max-width: 600px) {
-    .main-logo {
-        height: 40px;
+    .logo-link {
+        flex-direction: column; /* Logo dan teks bertumpuk atas-bawah */
+        gap: 10px;
     }
-    header h1 {
-        font-size: 1.2rem;
+
+    .site-info {
+        text-align: center; /* Sekarang subtitle akan otomatis ke tengah */
+    }
+
+    .main-logo {
+        height: 50px; /* Ukuran logo lebih mungil di HP */
+    }
+
+    .site-info h1 {
+        font-size: 1.2rem; /* Judul lebih pas untuk layar kecil */
     }
 }
