@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Arsip KUDA"
+title: "Nalar Karsa"
 ---
 
 <h2 style="color: var(--gold); font-family: 'Playfair Display', serif;">Rubrik KUDA (Kupasan Data)</h2>
