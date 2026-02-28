@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo-area">
+                <h1>{{ site.title }}</h1>
+                <p>Karya dan Ekspresi Mahasiswa</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="{{ '/' | relative_url }}">Beranda</a></li>
+                    <li><a href="/category/macan">MACAN</a></li>
+                    <li><a href="/category/kuda">KUDA</a></li>
+                    <li><a href="/category/kucing">KUCING</a></li>
+                    <li><a href="/category/rusa">RUSA</a></li>
+                    <li><a href="/category/murai">MURAI</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        {{ content }}
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 {{ site.title }} - FKH Unhas</p>
+            <div class="social-links">
+                <a href="#">Instagram</a> | <a href="#">Spotify</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
