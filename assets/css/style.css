@@ -147,6 +147,39 @@ footer {
     margin-top: 50px;
 }
 
+/* Style Tabel Karsa */
+.post-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    background: var(--white);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.post-content table th {
+    background-color: var(--gold);
+    color: var(--white);
+    padding: 12px 15px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.post-content table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+    font-size: 0.95rem;
+}
+
+.post-content table tr:last-child td {
+    border-bottom: none;
+}
+
+.post-content table tr:hover {
+    background-color: rgba(197, 160, 89, 0.05); /* Highlight emas tipis saat kursor lewat */
+}
+
 /* Pengaturan Default Kotak Putih (Desktop) */
 .post-content {
     background: var(--white);
